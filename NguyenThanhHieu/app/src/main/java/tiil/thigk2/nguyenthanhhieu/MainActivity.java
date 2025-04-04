@@ -34,5 +34,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button bntChucnang3 = (Button) findViewById(R.id.btnchucnang3);
+
+        bntChucnang3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iChucnang3 = new Intent(MainActivity.this, Activity_3.class);
+                startActivity(iChucnang3);
+            }
+        });
+
+        Button bntAboutme = (Button) findViewById(R.id.btnaboutme);
+
+        bntAboutme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iAboutme = new Intent(MainActivity.this, AboutMe.class);
+                startActivity(iAboutme);
+            }
+        });
+
     }
 }
