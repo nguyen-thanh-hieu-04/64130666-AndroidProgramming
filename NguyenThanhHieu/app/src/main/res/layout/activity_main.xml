@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#69ECFF">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/Logontu"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <Button
+            android:id ="@+id/btnchucnang2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chức năng 2"/>
+
+        <Button
+            android:id ="@+id/btnchucnang3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chức năng 3"/>
+
+        <Button
+            android:id ="@+id/btnchucnang4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chức năng 4"/>
+
+        <Button
+            android:id ="@+id/btnaboutme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Me"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
