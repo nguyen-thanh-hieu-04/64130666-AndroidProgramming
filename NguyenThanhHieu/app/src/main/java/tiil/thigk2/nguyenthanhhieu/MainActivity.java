@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         bntChucnang2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent iChucnang2 = new Intent(MainActivity.this, Activity2.class);
+                Intent iChucnang2 = new Intent(MainActivity.this, Activity_2.class);
                 startActivity(iChucnang2);
             }
         });
@@ -51,6 +51,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent iAboutme = new Intent(MainActivity.this, AboutMe.class);
                 startActivity(iAboutme);
+            }
+        });
+
+        Button bntChucnang4 = (Button) findViewById(R.id.btnchucnang4);
+
+        bntChucnang3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iChucnang4 = new Intent(MainActivity.this, Activity_4.class);
+                startActivity(iChucnang4);
             }
         });
 
